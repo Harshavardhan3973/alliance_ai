@@ -1,0 +1,50 @@
+[
+  {
+    "id": "USR-001",
+    "username": "instructor_admin",
+    "fullName": "Prof. Rajesh Kumar (Faculty Advisor)",
+    "email": "rajesh.kumar@alliance.edu.in",
+    "role": "INSTRUCTOR",
+    "passwordSalt": "FvtVqV35b6/YQUfw+pFUNQ==",
+    "passwordHash": "NklMff/7mvjimM4XSPQrB4UA/Ywju1It/dTM11Tue0Q=",
+    "department": "Alliance School of Advanced Computing",
+    "active": true,
+    "createdAt": "2026-09-01T09:00:00"
+  },
+  {
+    "id": "USR-002",
+    "username": "harsha_v",
+    "fullName": "Harsha Vardhan E",
+    "email": "harsha.v@ced.alliance.edu.in",
+    "role": "STUDENT",
+    "passwordSalt": "6yiG3SPzQE9WYprcQX99mA==",
+    "passwordHash": "xA/B7Igrz+xh03tk4JRoPxORY6WfuOoNDqNTxvfLSGA=",
+    "department": "Computer Science & Engineering",
+    "active": true,
+    "createdAt": "2026-09-05T10:30:00"
+  },
+  {
+    "id": "USR-003",
+    "username": "monisha_r",
+    "fullName": "Monisha R",
+    "email": "monisha.r@ced.alliance.edu.in",
+    "role": "STUDENT",
+    "passwordSalt": "q3Z7K9EEg5I5Kcv/NbkP5g==",
+    "passwordHash": "1wuTTgYNX+sUSp9H78js1YWVTKp/huHvI5bz3JpUc/o=",
+    "department": "Computer Science & Engineering",
+    "active": true,
+    "createdAt": "2026-09-05T10:35:00"
+  },
+  {
+    "id": "USR-004",
+    "username": "thanushree_d",
+    "fullName": "D Thanushree",
+    "email": "thanushree.d@ced.alliance.edu.in",
+    "role": "STUDENT",
+    "passwordSalt": "TlSW6NvDPZMfgQ8SptxpwQ==",
+    "passwordHash": "UvS//uOoJxey7hLE1Tfk+eTOh3621gnEvma1gNkaLJI=",
+    "department": "Computer Science & Engineering",
+    "active": true,
+    "createdAt": "2026-09-05T10:40:00"
+  }
+]

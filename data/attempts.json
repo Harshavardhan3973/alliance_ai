@@ -1,0 +1,183 @@
+[
+  {
+    "id": "ATT-9001",
+    "quizId": "QUIZ-001",
+    "quizTitle": "Java Core OOP & Concurrency Comprehensive Exam",
+    "studentUsername": "harsha_v",
+    "studentFullName": "Harsha Vardhan E",
+    "totalQuestions": 10,
+    "attemptedCount": 9,
+    "unattemptedCount": 1,
+    "correctCount": 7,
+    "wrongCount": 2,
+    "score": 7,
+    "maxScore": 10,
+    "percentage": 70.0,
+    "startTime": "2026-10-10T11:00:00",
+    "submissionTime": "2026-10-10T11:04:12",
+    "timeTakenSeconds": 252,
+    "submissionType": "MANUAL",
+    "snapshots": [
+      {
+        "questionId": "Q-101",
+        "questionText": "In Java, what happens if a subclass does not explicitly call super() in its constructor and the superclass does not have a no-argument constructor?",
+        "options": [
+          "The program compiles and initializes superclass fields to defaults",
+          "A compile-time error occurs because super() is inserted implicitly but cannot be resolved",
+          "A runtime NoSuchMethodError is thrown during instantiation",
+          "The JVM automatically synthesizes an empty constructor in the superclass"
+        ],
+        "correctAnswerIndex": 1,
+        "studentAnswerIndex": 0,
+        "concept": "Inheritance",
+        "courseOutcome": "CO-1",
+        "explanation": "If a constructor does not explicitly invoke a superclass constructor, the Java compiler automatically inserts super(). If the superclass lacks an accessible no-arg constructor, compilation fails.",
+        "status": "INCORRECT"
+      },
+      {
+        "questionId": "Q-102",
+        "questionText": "Which keyword is used by a subclass method to invoke a method of its immediate superclass that has been overridden?",
+        "options": [
+          "this",
+          "super",
+          "parent",
+          "base"
+        ],
+        "correctAnswerIndex": 1,
+        "studentAnswerIndex": 1,
+        "concept": "Inheritance",
+        "courseOutcome": "CO-1",
+        "explanation": "The 'super' keyword in Java is used to refer directly to the superclass instance members, allowing access to overridden methods.",
+        "status": "CORRECT"
+      },
+      {
+        "questionId": "Q-103",
+        "questionText": "What is the mechanism by which a call to an overridden method is resolved at runtime rather than compile time in Java?",
+        "options": [
+          "Static binding",
+          "Dynamic Method Dispatch (Runtime Polymorphism)",
+          "Method Overloading resolution",
+          "Bytecode link preemption"
+        ],
+        "correctAnswerIndex": 1,
+        "studentAnswerIndex": 1,
+        "concept": "Polymorphism",
+        "courseOutcome": "CO-2",
+        "explanation": "Dynamic method dispatch is Java's mechanism for implementing runtime polymorphism where the actual object instance type determines which overridden method executes.",
+        "status": "CORRECT"
+      },
+      {
+        "questionId": "Q-104",
+        "questionText": "Can an interface in Java 8 and later versions contain concrete method implementations without breaking backward compatibility?",
+        "options": [
+          "No, interfaces can strictly contain abstract methods only",
+          "Yes, using default and static methods",
+          "Yes, but only if marked with the 'protected' keyword",
+          "Only if the interface extends java.lang.Cloneable"
+        ],
+        "correctAnswerIndex": 1,
+        "studentAnswerIndex": 1,
+        "concept": "Interfaces",
+        "courseOutcome": "CO-2",
+        "explanation": "Starting in Java 8, interfaces can define concrete behavior using 'default' and 'static' methods.",
+        "status": "CORRECT"
+      },
+      {
+        "questionId": "Q-105",
+        "questionText": "Which statement correctly describes how checked exceptions differ from unchecked exceptions in Java?",
+        "options": [
+          "Checked exceptions inherit from java.lang.RuntimeException",
+          "Checked exceptions must be either caught or declared in the throws clause at compile time",
+          "Unchecked exceptions must always be caught in a try-finally block",
+          "Checked exceptions can only be thrown by JVM internal errors"
+        ],
+        "correctAnswerIndex": 1,
+        "studentAnswerIndex": 1,
+        "concept": "Exception Handling",
+        "courseOutcome": "CO-3",
+        "explanation": "Checked exceptions (subclasses of Exception excluding RuntimeException) are verified at compile time and require handling via try-catch or declaration in the throws clause.",
+        "status": "CORRECT"
+      },
+      {
+        "questionId": "Q-106",
+        "questionText": "In Java multithreading, which method is called on a Thread object to transition it from NEW to RUNNABLE state and begin asynchronous execution?",
+        "options": [
+          "run()",
+          "start()",
+          "execute()",
+          "resume()"
+        ],
+        "correctAnswerIndex": 1,
+        "studentAnswerIndex": 1,
+        "concept": "Multithreading",
+        "courseOutcome": "CO-3",
+        "explanation": "Calling start() creates a new native OS thread of execution and invokes run() on that thread. Calling run() directly merely executes on the caller thread.",
+        "status": "CORRECT"
+      },
+      {
+        "questionId": "Q-107",
+        "questionText": "When two distinct keys in a Java HashMap produce the same hashCode(), how does HashMap resolve the hash collision?",
+        "options": [
+          "It throws a DuplicateKeyException",
+          "It stores both entries in a bucket using a linked list (or balanced red-black tree when threshold is reached)",
+          "It replaces the first key with the second key automatically",
+          "It shifts the secondary key to the next available linear bucket via linear probing"
+        ],
+        "correctAnswerIndex": 1,
+        "studentAnswerIndex": 3,
+        "concept": "Collections & HashMap",
+        "courseOutcome": "CO-3",
+        "explanation": "Java HashMap uses separate chaining. Colliding elements are stored in the same bucket linked list; if the bin count exceeds TREEIFY_THRESHOLD (8), it converts to a red-black tree.",
+        "status": "INCORRECT"
+      },
+      {
+        "questionId": "Q-108",
+        "questionText": "What is the primary purpose of the 'finally' block in Java exception handling?",
+        "options": [
+          "To suppress any exception thrown in the try block",
+          "To ensure cleanup code (like closing streams or releases) executes regardless of whether an exception was thrown",
+          "To catch all Throwable instances including OutOfMemoryError",
+          "To automatically restart the enclosing method upon failure"
+        ],
+        "correctAnswerIndex": 1,
+        "studentAnswerIndex": 1,
+        "concept": "Exception Handling",
+        "courseOutcome": "CO-3",
+        "explanation": "A finally block always executes after try/catch (unless System.exit() is invoked), making it ideal for deterministic resource cleanup.",
+        "status": "CORRECT"
+      },
+      {
+        "questionId": "Q-109",
+        "questionText": "Which access modifier allows members of a class to be accessible within the same package and by subclasses located in different packages?",
+        "options": [
+          "private",
+          "package-private (default)",
+          "protected",
+          "public"
+        ],
+        "correctAnswerIndex": 2,
+        "studentAnswerIndex": 2,
+        "concept": "Packages & Encapsulation",
+        "courseOutcome": "CO-2",
+        "explanation": "The 'protected' modifier grants access to other classes in the same package as well as any subclasses outside the package.",
+        "status": "CORRECT"
+      },
+      {
+        "questionId": "Q-110",
+        "questionText": "What does Java's 'synchronized' keyword ensure when applied to a method?",
+        "options": [
+          "The method executes faster by bypassing garbage collection",
+          "Only one thread at a time can execute the method on the given monitor lock",
+          "All variables modified inside are permanently saved to disk",
+          "The method cannot throw any checked exceptions"
+        ],
+        "correctAnswerIndex": 1,
+        "studentAnswerIndex": -1,
+        "concept": "Multithreading",
+        "courseOutcome": "CO-3",
+        "explanation": "Synchronized methods acquire the intrinsic monitor lock of the object (or class object for static methods), guaranteeing mutual exclusion.",
+        "status": "UNATTEMPTED"
+      }
+    ]
+  }
+]

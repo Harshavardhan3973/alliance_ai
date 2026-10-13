@@ -1,0 +1,6 @@
+{
+  "name": "Alliance University Online Quiz Management System",
+  "description": "Java desktop examination system with synchronized timer, question-based revision, and concept-wise analytics for Alliance School of Advanced Computing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

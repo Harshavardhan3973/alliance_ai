@@ -1,0 +1,53 @@
+[
+  {
+    "id": "QUIZ-001",
+    "title": "Java Core OOP & Concurrency Comprehensive Exam",
+    "description": "Standard midterm assessment covering Inheritance, Polymorphism, Interfaces, Exception Handling, Collections, and Multithreading.",
+    "durationMinutes": 5,
+    "passPercentage": 60,
+    "createdBy": "instructor_admin",
+    "questionIds": [
+      "Q-101",
+      "Q-102",
+      "Q-103",
+      "Q-104",
+      "Q-105",
+      "Q-106",
+      "Q-107",
+      "Q-108",
+      "Q-109",
+      "Q-110"
+    ],
+    "courseOutcome": "CO-1, CO-2, CO-3",
+    "active": true,
+    "instructions": [
+      "The exam has a synchronized timer running on a dedicated thread.",
+      "Each correct answer awards 1 mark. There is no negative marking.",
+      "Answers can be changed anytime before final submission.",
+      "When the countdown expires, your answers are automatically submitted and evaluated.",
+      "After submission, you can access Question-Based Revision and Concept-Wise Performance Analytics."
+    ]
+  },
+  {
+    "id": "QUIZ-002",
+    "title": "Java Exception Handling & Multithreading Practice",
+    "description": "Targeted test focusing specifically on Course Outcome CO-3 topics including threads, locks, exceptions, and HashMap collisions.",
+    "durationMinutes": 3,
+    "passPercentage": 60,
+    "createdBy": "instructor_admin",
+    "questionIds": [
+      "Q-105",
+      "Q-106",
+      "Q-107",
+      "Q-108",
+      "Q-110"
+    ],
+    "courseOutcome": "CO-3",
+    "active": true,
+    "instructions": [
+      "3-minute timed examination.",
+      "Covers Exception Handling and Multithreading.",
+      "Automatic submission when the timer reaches 00:00."
+    ]
+  }
+]

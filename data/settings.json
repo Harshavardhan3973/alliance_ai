@@ -1,0 +1,24 @@
+{
+  "institutionName": "Alliance University",
+  "faculty": "Alliance School of Advanced Computing",
+  "department": "Department of Computer Science & Engineering",
+  "academicYear": "2026-2027",
+  "courseCode": "CS204",
+  "courseName": "Advanced Java Programming & Concurrent Systems",
+  "defaultQuizDurationMinutes": 10,
+  "passMarkPercentage": 60,
+  "autoSubmitOnTimeout": true,
+  "enableSoundAlerts": false,
+  "teamMembers": [
+    "Monisha R",
+    "D Thanushree",
+    "K Dheeraj Chowdary",
+    "Harsha Vardhan E",
+    "Kadalinga"
+  ],
+  "courseOutcomes": {
+    "CO-1": "Evolve Java programs incorporating classes, objects, and inheritance concepts.",
+    "CO-2": "Develop Java programs incorporating polymorphism, interfaces, and packages.",
+    "CO-3": "Create Java programs incorporating exception handling and multithreading."
+  }
+}
